@@ -54,8 +54,8 @@ export const SideContent = () => {
             </div>
           </div>
           <div className='sideContent_top_social'>
-            {socialIcon.map((icons) => (
-              <div className={icons.class}>
+            {socialIcon.map((icons,index) => (
+              <div className={icons.class} key={index}>
                 {/* <span>{icons.icon}</span> */}
                 <a href={icons.link}>{icons.icon}</a>
               </div>
@@ -64,8 +64,8 @@ export const SideContent = () => {
         </div>
         <div className='sideContent_bottom'>
           <div className='sideContent_bottom_skill'>
-            {side.map((item) => (
-              <div className='sideContent_skill_box'>
+            {side.map((item,index) => (
+              <div className='sideContent_skill_box' key={index}>
                 <Progress title={item.text} done={item.num} back={item.class} />
               </div>
             ))}

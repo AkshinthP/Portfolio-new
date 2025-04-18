@@ -11,9 +11,9 @@ export const About = () => {
     <>
       <section className='about'>
         <div className='container'>
-          {about.map((items) => {
+          {about.map((items,index) => {
             return (
-              <>
+              <React.Fragment key={index}>
                 <div className='about_details'>
                   <Info items={items} Heading={Heading} />
                   <Bio items={items} Heading={Heading} />
@@ -21,7 +21,8 @@ export const About = () => {
                 <Services items={items} Heading={Heading} />
                 <Slider items={items} Heading={Heading} />
                
-              </>
+              </React.Fragment>
+
             )
           })}
         </div>

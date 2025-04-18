@@ -7,7 +7,7 @@ export const Info = ({ items, Heading }) => {
       <Heading title='about info' />
       <div className='about_details_content'>
         {items.deatils.map((val,index) => (
-          // <>
+          
             <div className='about_details_content_box' key={index}>
               <div className='icon'>
                 <span>{val.icon}</span>
@@ -17,7 +17,7 @@ export const Info = ({ items, Heading }) => {
                 <span>{val.value}</span>
               </div>
             </div>
-          // </>
+          
         ))}
       </div>
     </>

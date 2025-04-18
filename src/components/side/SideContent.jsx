@@ -56,7 +56,7 @@ export const SideContent = () => {
           <div className='sideContent_top_social'>
             {socialIcon.map((icons,index) => (
               <div className={icons.class} key={index}>
-                {/* <span>{icons.icon}</span> */}
+                
                 <a href={icons.link}>{icons.icon}</a>
               </div>
             ))}

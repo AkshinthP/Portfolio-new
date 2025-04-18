@@ -7,7 +7,7 @@ export const Services = ({ items, Heading }) => {
         <Heading title='Skills' />
         <div className='about_services_boxs'>
           {items.serives.map((item, index) => (
-            // <>
+            
               <div className='card' key={index}>
                 <div className='icon'>
                   <span>{item.icon}</span>
@@ -18,7 +18,7 @@ export const Services = ({ items, Heading }) => {
                   <p>{item.decs}</p>
                 </div>
               </div>
-            // </>
+            
           ))}
         </div>
       </div>

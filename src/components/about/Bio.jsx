@@ -1,12 +1,11 @@
 import React from "react"
-// import {Link} from 'react-router-dom'
 export const Bio = ({ items, Heading }) => {
   return (
     <>
       <Heading title='Short Bio' />
       <div className='about_details_bio'>
         {items.bio.map((val,index) => (
-          // <>
+          
             <div className='about_details_bio_box' key={index}>
               <div className='about_details_bio_box_item'>
                 <p>{val.para1}</p>
@@ -32,7 +31,6 @@ export const Bio = ({ items, Heading }) => {
            
               </div>
             </div>
-          // </>
         ))}
       </div>
     </>

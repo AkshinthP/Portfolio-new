@@ -9,14 +9,14 @@ $lightdark: #292633;
 $white: #fff;
 $lightgray: #808080;
 
-// padding
+
 $p-sm: 15px;
 $p-md: 20px;
 $p-lg: 30px;
 $p-xl: 40px;
 $p-2xl: 50px;
 
-// padding
+
 $sm: 10px;
 $m-sm: 15px;
 $m-md: 20px;
@@ -24,7 +24,7 @@ $m-lg: 30px;
 $m-xl: 40px;
 $m-2xl: 50px;
 
-// width
+
 $s: 10%;
 $w-s: 20%;
 $w-sm: 25%;
@@ -36,7 +36,7 @@ $w-3xl: 80%;
 $w-4xl: 90%;
 $w-full: 100%;
 
-// height
+
 $h-sm: 20px;
 $h-md: 25px;
 $h-lg: 30px;
@@ -106,30 +106,6 @@ $sizes: (
   "2xl": 160px,
 );
 
-/*@function icon($size, $line-height) {
-  @return map-get($sizes, $size);
-  @return map-get($sizes, $line-height);
-}
-
-@mixin icon {
-  width: map-get($sizes, sm);
-  height: map-get($sizes, sm);
-  background: $indigo;
-  color: $white;
-  border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
-  font-size: 18px;
-  line-height: map-get($sizes, sm);
-  padding: 5px;
-  text-align: center;
-  transition: all ease 300ms;
-
-  &:hover {
-    background: $primary;
-    cursor: pointer;
-    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-  }
-}
-*/
 
 @mixin icons($width, $height, $background, $size, $line, $backgroundHover) {
   width: $width;
@@ -246,17 +222,5 @@ $sizes: (
 }
 
 
-// mobile
-// @media screen and (max-width: 480px) {
-//   @mixin defaultValue {
-//     cursor: pointer;
-//     border: none;
-//     outline: none;
-//     text-decoration: none;
-//     color: rgb(147, 23, 23);
-//     list-style-type: none;
-//     background: none;
-//     margin-left: 200px;
-//   }
-// }
+
 

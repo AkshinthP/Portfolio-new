@@ -1,50 +1,16 @@
-import { AiOutlineHome, AiOutlineCalculator, AiOutlineSetting, AiOutlineShareAlt } from "react-icons/ai"
+import { AiOutlineCalculator } from "react-icons/ai"
 import { RiToolsLine, RiUserLine } from "react-icons/ri"
-import { FaRegLightbulb, FaFacebookF, FaTwitter, FaInstagram, FaDribbble, FaShippingFast, FaLinkedin, FaGithub } from "react-icons/fa"
-import { CgCardClubs, CgDatabase } from "react-icons/cg"
-import { TbMailOpened, TbTool } from "react-icons/tb"
+import { FaFacebookF, FaInstagram, FaShippingFast, FaLinkedin, FaGithub } from "react-icons/fa"
+import { CgDatabase } from "react-icons/cg"
+import { TbTool } from "react-icons/tb"
 import { GoMail } from "react-icons/go"
-import { GiChart, GiPaper, GiPinballFlipper } from "react-icons/gi"
+import { GiChart } from "react-icons/gi"
 import { FiLayers } from "react-icons/fi"
-import { BsPhone } from "react-icons/bs"
-import { BsPhoneVibrate, BsVectorPen } from "react-icons/bs"
-import { MdShareLocation, MdLocalShipping, MdOutlineLocalShipping, MdToll } from "react-icons/md"
+import { BsPhoneVibrate} from "react-icons/bs"
+import { MdShareLocation, MdLocalShipping, MdOutlineLocalShipping} from "react-icons/md"
 import { BiLaptop, BiLibrary } from "react-icons/bi"
 
-// export const menu = [
-//   {
-//     id: 1,
-//     text: "home",
-//     url: "/",
-//     icon: <AiOutlineHome />,
-//   },
-//   {
-//     id: 2,
-//     text: "resume",
-//     url: "/resume",
-//     icon: <RiUserLine />,
-//   },
-//   {
-//     id: 3,
-//     text: "portfolio",
-//     url: "/portfolio",
-//     icon: <FaRegLightbulb />,
-//   },
-//   {
-//     id: 4,
-//     text: "blog",
-//     url: "/blog",
-//     icon: <CgCardClubs />,
-//   },
-//   {
-//     id: 5,
-//     text: "contact",
-//     url: "/contact",
-//     icon: <TbMailOpened />,
-//   },
-// ]
 
-// www.linkedin.com/in/akshinth-p-12a17531b
 
 export const socialIcon = [
   {
@@ -184,7 +150,6 @@ export const about = [
         The focus was on layout consistency and smooth functionality to enhance the browsing experience.`,
         name: "Food Recipe App",
         link: "Online food selecting application",
-        // cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0OpsCLto4sXJMMRg3o_x4Gfe3lwYQ5lwx1A&usqp=CAU",
         sourceCode:"https://github.com/AkshinthP/Food-Recipes.git",
       },
       {
@@ -194,16 +159,8 @@ export const about = [
          Visitors can explore various tourist destinations, view images, and get brief descriptions of each location. Styled using CSS and React components to ensure a smooth and interactive experience.`,
         name: "Kerala Tourism",
         link: "Tourism website",
-        // cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3g5SfVO9v7LbzxWA_ym6crhwLQrGFqKZpKNnJrEAwqvFSIL_Dvo8R2b-2568Ss_rz19Y&usqp=CAU",
         sourceCode:"https://github.com/AkshinthP/Tourismkerala.git",
       },
-      // {
-      //   id: 3,
-      //   desc: "They'll have to make the best of things its an uphill climb. Californ'y is the place you oughtto be So they loaded up the truck and moved to Beverly. Hills thatSwimmin' pools movie stars.Maybe you and me were never meant to be.",
-      //   name: "Edward Johnson",
-      //   link: "gorkcoder.com",
-      //   cover: "./images/aut3.jpg",
-      // },
     ],
 
     price: [
